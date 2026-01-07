@@ -1,0 +1,5 @@
+{
+  "AppId": "3a4f405f-41de-4598-b6de-61f7b878b06a",
+  "ConnectionString": "InstrumentationKey=c790fc57-81d3-4386-a736-dd8ec23d21ec;IngestionEndpoint=https://italynorth-0.in.applicationinsights.azure.com/;LiveEndpoint=https://italynorth.livediagnostics.monitor.azure.com/;ApplicationId=3a4f405f-41de-4598-b6de-61f7b878b06a",
+  "Name": "bank-churn-insights"
+}

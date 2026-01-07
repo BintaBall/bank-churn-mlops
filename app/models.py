@@ -40,3 +40,6 @@ class HealthResponse(BaseModel):
     """Schema pour le health check"""
     status: str
     model_loaded: bool
+    model_config = {
+        "protected_namespaces": ()  # ⭐ AJOUTE ÇA
+    }
