@@ -9,7 +9,7 @@ on:
 env:
   # ⚠️ REMPLACEZ CES VALEURS PAR LES VÔTRES ⚠️
   AZURE_RESOURCE_GROUP: rg-mlops
-  ACR_NAME: dphp          # Le nom de VOTRE ACR (étape 5.1)
+  ACR_NAME: dephp          # Le nom de VOTRE ACR (étape 5.1)
   CONTAINER_APP_NAME: bank-churn    # Le nom de VOTRE Container App (étape 5.2)
   IMAGE_NAME: bank-churn-api
 
