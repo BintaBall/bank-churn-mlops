@@ -1,0 +1,36 @@
+# .dockerignore
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+venv/
+env/
+.git/
+.gitignore
+.mypy_cache/
+.pytest_cache/
+.coverage
+*.log
+*.sqlite3
+
+# Fichiers spécifiques ML
+mlruns/           # MLflow - TRÈS LOURD
+notebooks/
+*.ipynb
+
+# Fichiers temporaires
+*.pkl             # SAUF model/churn_model.pkl
+*.joblib
+*.h5
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# OS
+.DS_Store
+Thumbs.db
