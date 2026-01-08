@@ -18,3 +18,7 @@ opencensus-ext-requests==0.7.6
 python-multipart==0.0.6
 requests==2.31.0
 psutil==5.9.6  # Pour health check avancé
+
+#app
+streamlit==1.28.0
+requests==2.31.0
